@@ -2,42 +2,42 @@
     --aider-chat-avatars: compact;
 }
 
-.avatar_c19a55,
-.avatar__07f91 {
+.avatar_2i8Bfm,
+.avatar_YUoOxm {
     border-radius: 0px;
 }
 
 @container style(--aider-chat-avatars: compact) {
-    .message__5126c {
+    .message_SY_P2T {
         --custom-message-margin-left-content-cozy: var(--space-xxl);
 
-        .avatar_c19a55 {
+        .avatar_2i8Bfm {
             scale: calc(16 / 40);
             top: -8px;
             margin-top: 0px;
             left: calc(var(--space-xxl) / 1.5);
         }
 
-        .avatarDecoration_c19a55 {
+        .avatarDecoration_2i8Bfm {
             scale: calc(16 / 40);
             top: -11px;
             margin-top: 0px;
             left: calc(var(--space-xxl) / 1.5 - 4px);
         }
 
-        .header_c19a55 {
+        .header_2i8Bfm {
             margin-left: 20px;
         }
 
-        &.hasReply_c19a55 .avatar_c19a55 {
+        &.hasReply_2i8Bfm .avatar_2i8Bfm {
             top: 15px;
         }
 
-        &:not(.groupStart__5126c)>.contents_c19a55 {
+        &:not(.groupStart_SY_P2T)>.contents_2i8Bfm {
             display: flex;
             align-items: end;
 
-            >.latin12CompactTimeStamp_c19a55 {
+            >.latin12CompactTimeStamp_2i8Bfm {
                 position: relative;
                 display: inline;
                 opacity: 1;
@@ -51,15 +51,15 @@
 
 /* Chatbar --------------------- */
 
-.chat_f75fb0 {
+.chat_z_gUBg {
     border-top: 0 !important;
 }
 
-.typing_b88801 {
+.typing_U9Tvvz {
     overflow: visible !important;
     z-index: 0;
 
-    .typingDots_b88801 {
+    .typingDots_U9Tvvz {
         overflow: visible !important;
         width: fit-content;
         flex: 0;
@@ -88,19 +88,19 @@
             margin-left: 8px;
         }
 
-        .ellipsis_b88801 {
+        .ellipsis_U9Tvvz {
             width: 0px;
             visibility: hidden;
         }
     }
 }
 
-.form_f75fb0>div:not([class]) {
+.form_z_gUBg>div:not([class]) {
     position: relative;
     z-index: 2;
 }
 
-.chatGradient__36d07 {
+.chatGradient_8AE1Qq {
     bottom: -4px;
     height: calc((var(--chat-markup-line-height, 1rem) + 16px) / 2);
     background: linear-gradient(to bottom,
@@ -119,11 +119,11 @@
 }
 
 /* chatbar ---------------------------*/
-.form_f75fb0 {
+.form_z_gUBg {
     padding: 4px;
 
-    .channelTextArea_f75fb0,
-    .themedBackground__74017 {
+    .channelTextArea_z_gUBg,
+    .themedBackground_2x8-Qn {
         margin-bottom: 0px;
         border-radius: 0px;
         border: 0;
@@ -131,11 +131,11 @@
         overflow: visible;
     }
 
-    .inner__74017 {
+    .inner_2x8-Qn {
         --custom-channel-textarea-text-area-height: calc(var(--chat-markup-line-height, 1rem) + 16px);
         align-items: start;
 
-        .textArea__74017 {
+        .textArea_2x8-Qn {
             --custom-channel-textarea-text-area-height: var(--chat-markup-line-height,
                     1rem);
             padding: 8px !important;
@@ -186,12 +186,12 @@
             }
         }
 
-        >.buttons__74017 {
+        >.buttons_2x8-Qn {
             gap: 1px !important;
             margin-top: 1px;
 
-            >*:not(span, .separator_aa63ab)>.button__74017,
-            >.button__74017 {
+            >*:not(span, .separator_plpOf8)>.button_2x8-Qn,
+            >.button_2x8-Qn {
                 background: linear-gradient(to top,
                         var(--background-base-lower),
                         color-mix(in oklab, var(--background-base-lower), white 5%)) !important;
@@ -215,7 +215,7 @@
                 }
             }
 
-            >*:not(span, .separator_aa63ab)>.button_e6e74f {
+            >*:not(span, .separator_plpOf8)>.button_s8hOwn {
                 /* i hate the activity launcher */
                 background: linear-gradient(to top,
                         var(--background-base-lower),
@@ -239,17 +239,17 @@
             }
         }
 
-        .placeholder__1b31f {
+        .placeholder_SHcSVi {
             margin-left: 8px;
         }
 
-        .attachWrapper__0923f {
+        .attachWrapper_7TM4SO {
             display: contents;
 
-            .attachButton__0923f {
+            .attachButton_7TM4SO {
                 margin-right: 0px;
 
-                >.attachButtonInner__0923f {
+                >.attachButtonInner_7TM4SO {
                     background: linear-gradient(to top,
                             var(--background-base-lower),
                             color-mix(in oklab,
@@ -278,7 +278,7 @@
             }
         }
 
-        .wrapper__4d3a9+.textArea__74017 {
+        .wrapper_kgeBdh+.textArea_2x8-Qn {
             padding: 3px 8px 2px !important;
             display: flex;
             align-items: center;
@@ -289,12 +289,12 @@
             }
         }
 
-        .wrapper__4d3a9 {
+        .wrapper_kgeBdh {
             z-index: 20;
             margin-right: 1px;
         }
 
-        .icon__4d3a9 {
+        .icon_kgeBdh {
             padding: 7px 7px 6px 7px;
             background: linear-gradient(to top,
                     var(--background-base-lower),
@@ -313,15 +313,15 @@
     }
 }
 
-.optionPill__1464f {
+.optionPill_T14dfz {
     border-radius: 0px;
 
-    .optionPillKey__1464f {
+    .optionPillKey_T14dfz {
         background: var(--_aider-gradient);
         border-radius: 0px;
     }
 
-    &.erroredPill__1464f {
+    &.erroredPill_T14dfz {
         border: 1px solid color-mix(in srgb, var(--red-800), transparent);
         box-shadow:
             0px 0px 1px 1px inset color-mix(in srgb, var(--red-300), transparent 80%),
@@ -331,7 +331,7 @@
                 var(--background-base-lower),
                 var(--red-700) 25%) !important;
 
-        .optionPillKey__1464f {
+        .optionPillKey_T14dfz {
             background: linear-gradient(to bottom,
                     color-mix(in oklab,
                         var(--background-base-lower),
@@ -342,13 +342,13 @@
         }
     }
 
-    &.selectedPill__1464f {
+    &.selectedPill_T14dfz {
         border: 1px solid var(--brand-500) !important;
         background: color-mix(in oklab,
                 var(--background-base-lower),
                 var(--brand-800) 25%) !important;
 
-        .optionPillKey__1464f {
+        .optionPillKey_T14dfz {
             background: linear-gradient(to top,
                     color-mix(in oklab,
                         var(--background-base-lower),
@@ -360,21 +360,21 @@
     }
 }
 
-.stackedBars__74017 {
+.stackedBars_2x8-Qn {
     margin: 0px 1px 3px 2px;
     border: 1px solid var(--_aider-border-dark) !important;
     box-shadow:
         0px 0px 1px 1px inset var(--border-subtle),
         2px 2px 10px black !important;
 
-    .bar__84522,
-    .clipContainer__841c8 {
+    .bar_AqTeBa,
+    .clipContainer_rE8-46 {
         background: var(--_aider-gradient);
         box-shadow: 0px 0px 1px 1px inset var(--border-subtle);
     }
 }
 
-.autocomplete__13533 {
+.autocomplete_CAMiwx {
     border-radius: 0px;
     background: linear-gradient(to bottom,
             color-mix(in oklab, var(--background-base-lower), white 7.5%),
@@ -387,9 +387,9 @@
 }
 
 .theme-light {
-    .form_f75fb0 {
-        .inner__74017 {
-            .textArea__74017 {
+    .form_z_gUBg {
+        .inner_2x8-Qn {
+            .textArea_2x8-Qn {
                 margin-right: 1px !important;
                 background: linear-gradient(to bottom,
                         var(--background-base-lower),
@@ -402,10 +402,10 @@
                 }
             }
 
-            >.buttons__74017 {
+            >.buttons_2x8-Qn {
 
-                >*:not(span, .separator_aa63ab)>.button__74017,
-                >.button__74017 {
+                >*:not(span, .separator_plpOf8)>.button_2x8-Qn,
+                >.button_2x8-Qn {
                     background: linear-gradient(to bottom,
                             var(--background-base-lower),
                             color-mix(in oklab,
@@ -422,7 +422,7 @@
                     }
                 }
 
-                >*:not(span, .separator_aa63ab)>.button_e6e74f {
+                >*:not(span, .separator_plpOf8)>.button_s8hOwn {
                     /* i hate the activity launcher */
                     background: linear-gradient(to bottom,
                             var(--background-base-lower),
@@ -441,11 +441,11 @@
                 }
             }
 
-            .attachWrapper__0923f {
-                .attachButton__0923f {
+            .attachWrapper_7TM4SO {
+                .attachButton_7TM4SO {
                     margin-right: 1px !important;
 
-                    >.attachButtonInner__0923f {
+                    >.attachButtonInner_7TM4SO {
                         background: linear-gradient(to bottom,
                                 var(--background-base-lower),
                                 color-mix(in oklab,
@@ -470,7 +470,7 @@
 }
 
 /* tags -------------------------------*/
-.botTag__5d473.botTag__82f07.px__82f07 {
+.botTag_Iy0c7A.botTag_feVUtO.px_feVUtO {
     border-radius: 20px;
     padding: 1px 5px 0px;
     border: 1px solid var(--brand-700);
@@ -481,12 +481,12 @@
     box-sizing: content-box;
     background: linear-gradient(to bottom, var(--brand-400), var(--brand-500));
 
-    .botTagVerified__82f07 {
+    .botTagVerified_feVUtO {
         margin-top: -1px;
     }
 }
 
-.chipletContainerInner__10651 {
+.chipletContainerInner_k8jyN7 {
     border-radius: 0px;
     background: var(--background-surface-highest);
     outline: 1px color-mix(in oklab, var(--border-subtle), transparent 25%) dashed;
@@ -495,7 +495,7 @@
 /* Debug ----------- */
 
 [data-debug-key="highlight_mana_components"] {
-    >.stack_dbd263 {
+    >.stack_TWWX0S {
         display: none;
     }
 
@@ -505,8 +505,8 @@
     }
 }
 
-.popover_f84418,
-.menu_c1e9c4 {
+.popover_DpHsW6,
+.menu_M3qk4j {
     border-radius: 0px;
     background: linear-gradient(to bottom,
             color-mix(in oklab, var(--background-base-lower), white 7.5%),
@@ -519,10 +519,10 @@
 
 .theme-light {
 
-    .popover_f84418,
-    .menu_c1e9c4,
-    .autocomplete__13533,
-    .stackedBars__74017 {
+    .popover_DpHsW6,
+    .menu_M3qk4j,
+    .autocomplete_CAMiwx,
+    .stackedBars_2x8-Qn {
         box-shadow:
             0px 0px 1px 1px inset var(--border-subtle),
             2px 2px 10px rgba(0, 0, 0, 0.2) !important;
